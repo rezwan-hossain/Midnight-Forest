@@ -1,0 +1,21 @@
+{
+  "name": "midnight-forest",
+  "displayName": "Midnight Forest",
+  "description": "Muted dark theme for vscode ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight Forest-color-theme.json"
+      }
+    ]
+  }
+}
