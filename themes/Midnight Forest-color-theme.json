@@ -2,7 +2,7 @@
 	"name": "Midnight Forest",
 	"colors": {
 
-		"focusBorder": "#00000000",
+		"focusBorder": "#1d353a",
 		// "foreground": "#dbd7caee",
 		// "descriptionForeground": "#dedcd590",
 		"errorForeground": "#806731",
@@ -166,10 +166,10 @@
 		"inputValidation.warningBorder": "#806731",
 
 		//notification
-		"notificationCenterHeader.foreground": "#959da5",
-		"notificationCenterHeader.background": "#121212",
+		"notifications.background": "#0f1c1f",
 		"notifications.foreground": "#dbd7caee",
-		"notifications.background": "#121212",
+		"notificationCenterHeader.background": "#121212",
+		"notificationCenterHeader.foreground": "#959da5",
 		"notifications.border": "#191919",
 		"notificationsErrorIcon.foreground": "#cb7676",
 		"notificationsWarningIcon.foreground": "#d4976c",
@@ -201,9 +201,9 @@
 		"tab.inactiveForeground": "#898576",
 		"tab.hoverBackground": "#0D191B",
 		"tab.unfocusedHoverBackground": "#121212",
-		"tab.unfocusedActiveBorderTop": "#191919",
-		"tab.activeBorder": "#191919",
-		"tab.unfocusedActiveBorder": "#191919",
+		"tab.unfocusedActiveBorderTop": "#122225",
+		"tab.activeBorder": "#122225",
+		"tab.unfocusedActiveBorder": "#122225",
 		"tab.activeBorderTop": "#dedcd590",
 		
      
@@ -230,12 +230,14 @@
 
 		//git
 		"gitDecoration.addedResourceForeground": "#416644",
-		"gitDecoration.conflictingResourceForeground": "#6a4771",
-		"gitDecoration.deletedResourceForeground": "#814b49",
-		"gitDecoration.ignoredResourceForeground": "#727475",
-		"gitDecoration.modifiedResourceForeground": "#806731",
-		"gitDecoration.untrackedResourceForeground": "#326777",
-		"gitDecoration.submoduleResourceForeground": "#dedcd590",
+		"gitDecoration.conflictingResourceForeground": "#67426e",
+		"gitDecoration.deletedResourceForeground": "#c5413c",
+		"gitDecoration.ignoredResourceForeground": "#7c7e80",
+		"gitDecoration.modifiedResourceForeground": "#8f7338",
+		"gitDecoration.stageDeletedResourceForeground": "#8b3f3d",
+		"gitDecoration.stageModifiedResourceForeground": "#866c34",
+		"gitDecoration.submoduleResourceForeground": "#4b5e8690",
+		"gitDecoration.untrackedResourceForeground": "#3b9b9b",
 
 		
 
@@ -259,7 +261,7 @@
 		"terminal.foreground": "#898576",
 		"terminal.selectionBackground": "#6a477160",
 
-		"progressBar.background": "#0f1c1f",
+		"progressBar.background": "#dbd7caee",
 
 		"panel.border": "#122225",
 		"panel.background": "#0f1c1f",
@@ -279,11 +281,11 @@
       	"panelTitle.inactiveForeground": "#959da5",
 
 		//picker
+		"quickInput.background": "#0f1c1f",
 		"pickerGroup.border": "#32677799",
 		"pickerGroup.foreground": "#32677799",
-		"quickInput.background": "#121212",
-      "quickInput.foreground": "#dbd7caee",
-      "quickInputList.focusBackground": "#181818",
+      	"quickInput.foreground": "#dbd7cabe",
+     	"quickInputList.focusBackground": "#41664452",
 
 		"welcomePage.background": "#0f1c1f",
 		
@@ -701,7 +703,7 @@
 		{
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#80673196"
+				"foreground": "#94783bb2"
 			}
 		},
 		{
@@ -786,6 +788,15 @@
 			"scope": "punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.definition.array.begin.json, punctuation.definition.array.end.json",
 			"settings": {
 				"foreground": "#6a4771"
+			}
+		},
+
+		{
+			"name": "storage type class",
+			"scope": "storage.type.class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DD806BC5"
 			}
 		},
 
