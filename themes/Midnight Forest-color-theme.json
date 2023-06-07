@@ -29,8 +29,8 @@
 
 		// breadcrum color
 		"breadcrumb.background": "#132226",
-		"breadcrumb.foreground": "#9fb6c6",
-		"breadcrumb.focusForeground": "#c91717",
+		"breadcrumb.foreground": "#a8a8a5e7",
+		"breadcrumb.focusForeground": "#A9BCB0c5",
 		"breadcrumb.activeSelectionForeground": "#ebf7ff",
 		"breadcrumbPicker.background": "#029eff",
 
@@ -194,7 +194,7 @@
 		"editorGroupHeader.tabsBackground": "#0f1c1f",
     	"editorGroupHeader.tabsBorder": "#191919",
 		"editorGroup.border": "#191919",
-		"tab.border": "#191919",
+		"tab.border": "#122225",
 		"tab.activeBackground": "#0f1c1f",
 		"tab.inactiveBackground": "#0f1c1f",
 		"tab.activeForeground": "#898576",
@@ -211,12 +211,12 @@
 
 
 		// editorBracket
-		"editorBracketHighlight.foreground1": "#0aa005",
-		"editorBracketHighlight.foreground2": "#dfb976",
-		"editorBracketHighlight.foreground3": "#c172d9",
-		"editorBracketHighlight.foreground4": "#4fb1bc",
-		"editorBracketHighlight.foreground5": "#97c26c",
-		"editorBracketHighlight.foreground6": "#abb2c0",
+		"editorBracketHighlight.foreground1": "#b4b403c5",
+		"editorBracketHighlight.foreground2": "#2978a7c5",
+		"editorBracketHighlight.foreground3": "#175873c5",
+		"editorBracketHighlight.foreground4": "#A9BCB0c5",
+		"editorBracketHighlight.foreground5": "#696C60",
+		"editorBracketHighlight.foreground6": "#db7f6bc5",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
 
 		"editorOverviewRuler.border": "#111",
@@ -294,7 +294,7 @@
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 			  "fontStyle": "italic",
-			  "foreground": "#035399"
+			  "foreground": "#035399be"
 			}
 		},
 		{
@@ -389,7 +389,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#806731"
+				"foreground": "#326777"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#806731"
+				"foreground": "#326777"
 			}
 		},
 		{
@@ -779,13 +779,22 @@
 		{
 			"scope": "support.type.primitive",
 			"settings": {
-				"foreground": "#806731"
+				"foreground": "#dd806bc5"
 			}
 		},
 		{
 			"scope": "punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.definition.array.begin.json, punctuation.definition.array.end.json",
 			"settings": {
 				"foreground": "#6a4771"
+			}
+		},
+
+		{
+			"name": "support variable",
+			"scope": "support.variable.property",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#326777"
 			}
 		},
 
