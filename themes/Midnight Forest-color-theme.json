@@ -810,6 +810,15 @@
 		},
 
 		{
+			"name": "punctuation accessor",
+			"scope": "punctuation.accessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#806731"
+			}
+		},
+
+		{
 			"name": "return italic",
 			"scope": "keyword.control.flow",
 			"settings": {
