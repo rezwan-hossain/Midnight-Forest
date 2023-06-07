@@ -1,6 +1,11 @@
 # midnight-forest README
+[![Midnight Forest Theme](https://raw.githubusercontent.com/rezwan-hossain/Midnight-Forest/main/images/theme1.png)](https://github.com/rezwan-hossain/Midnight-Forest/)
 
-## Working with Markdown
+![Midnight Forest Theme](https://raw.githubusercontent.com/rezwan-hossain/Midnight-Forest/main/images/theme2.png)
+
+## My Settings
+![settings](https://raw.githubusercontent.com/rezwan-hossain/Midnight-Forest/main/images/theme3.png)
+
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
