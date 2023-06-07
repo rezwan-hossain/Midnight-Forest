@@ -2,13 +2,35 @@
   "name": "midnight-forest",
   "displayName": "Midnight Forest",
   "description": "Muted dark theme for vscode ",
-  "version": "0.0.1",
+  "publisher": "rezwan-hossain",
+  "author": {
+    "name": "rezwan hossain"
+  },
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezwan-hossain/Midnight-Forest"
+  },
+  "galleryBanner": {
+    "color": "#1a2421",
+    "theme": "dark"
+  },
+  "icon": "images/logo/logo.png",
+
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "Dark Theme",
+    "muted Theme",
+    "green color",
+    "easy for eye",
+    "pastel color"
+  ],
+
   "contributes": {
     "themes": [
       {
